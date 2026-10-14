@@ -1,0 +1,79 @@
+{
+  "source_file": "311_Sanitation_Combined_2010_2026.zip",
+  "original_rows": 266702,
+  "duplicate_request_rows_removed": 811,
+  "distinct_311_requests": 265891,
+  "repeated_ids_with_conflicting_close_dates": 780,
+  "date_range_first": "2010-01-24 00:00:00",
+  "date_range_last": "2026-09-24 00:05:38",
+  "peak_full_year_2011_2025": 2016,
+  "peak_full_year_distinct_requests": 20927,
+  "top_zip": {
+    "label": "60620",
+    "complaints": 12190
+  },
+  "top_community_area_code": {
+    "label": "25",
+    "complaints": 12096
+  },
+  "top_ward": {
+    "label": "6",
+    "complaints": 11350
+  },
+  "status_counts": {
+    "Completed": 257337,
+    "Duplicate": 7270,
+    "Open": 1023,
+    "Canceled": 261
+  },
+  "food_analysis_executed": true,
+  "food_analyses_status": "executed",
+  "raw_food_inspection_rows": 315488,
+  "duplicate_inspection_id_rows_removed": 0,
+  "city_label_exclusions": 576,
+  "unique_chicago_food_inspections": 314912,
+  "graded_chicago_food_inspections": 270371,
+  "failed_chicago_food_inspections": 60654,
+  "inspection_matching": {
+    "inspection_address_years_total": 160849,
+    "inspection_address_years_matched": 6332,
+    "inspection_address_years_matched_pct": 3.94,
+    "inspections_on_matched_address_years": 14747,
+    "matched_311_unique_requests": 10078,
+    "graded_inspection_failure_share_all_pct": 22.43
+  },
+  "complaint_band_results": [
+    {
+      "Complaint Band": "0",
+      "Address_Years": 154517,
+      "Inspections": 300164,
+      "Graded": 257933,
+      "Failures": 57556,
+      "Failure Share (%)": 22.3143219363
+    },
+    {
+      "Complaint Band": "1",
+      "Address_Years": 4800,
+      "Inspections": 11163,
+      "Graded": 9440,
+      "Failures": 2302,
+      "Failure Share (%)": 24.3855932203
+    },
+    {
+      "Complaint Band": "2–4",
+      "Address_Years": 1310,
+      "Inspections": 3061,
+      "Graded": 2568,
+      "Failures": 684,
+      "Failure Share (%)": 26.6355140187
+    },
+    {
+      "Complaint Band": "5+",
+      "Address_Years": 222,
+      "Inspections": 523,
+      "Graded": 429,
+      "Failures": 111,
+      "Failure Share (%)": 25.8741258741
+    }
+  ]
+}
